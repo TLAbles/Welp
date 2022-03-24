@@ -4,7 +4,7 @@ Data analysis on one star Yelp reviews.
 
 ## Code Louisville Data Analysis Course 1 Spring 2022 
 
-This project uses the Yelp Open Dataset available for educational and academic purposes. Specifically, business and review datasets were accessed, combined, and filtered to find restaurants still in operation. These open restaurants were grouped by review star rating and a histplot was made to visualize the counts of these reviews. The reviews were further filtered to include only one star reviews in English using langdetect. Sentiment analysis was performed on these reviews using Vader, which is designed to detect polarity (how positive or negative text is) and intensity (the strength of the emotion).  Negative, neutral, positive, and compound scores were returned during the sentiment analysis. The compound score, which is computed by normalizing negative, neutral, and positive scores, was added to the dataframe. A zoomable base map was created using Folium, a library used to create leaflet maps. The GPS coordinates from the restaurants associated with the reviews with the lowest compound scores were used to add markers to the map. Pop ups were added to each marker with both the name of the restaurant and the text of the review. Words from all of the most negative reviews were then joined, lowercased, and stopwords (a list of the most commonly used words) were removed to make wordcloud displaying the most frequently used words in the negative reviews. 
+This project uses the Yelp Open Dataset available for educational and academic purposes. Specifically, business and review datasets were accessed, combined, and filtered to find restaurants still in operation. These open restaurants were grouped by review star rating and a histogram was made to visualize the counts of these reviews. The reviews were further filtered to include only one star reviews in English using langdetect. Sentiment analysis was performed on these reviews using Vader, which is designed to detect polarity (how positive or negative text is) and intensity (the strength of the emotion).  Negative, neutral, positive, and compound scores were returned during the sentiment analysis. The compound score, which is computed by normalizing negative, neutral, and positive scores, was added to the dataframe. A zoomable base map was created using Folium, a library used to create leaflet maps. The GPS coordinates from the restaurants associated with the reviews with the lowest compound scores were used to add markers to the map. Pop ups were added to each marker with both the name of the restaurant and the text of the review. Words from all of the most negative reviews were then joined, lowercased, and stopwords (a list of the most commonly used words) were removed to make wordcloud displaying the most frequently used words in the negative reviews. 
  
 ## Setup
 Clone this repository.
@@ -32,7 +32,7 @@ The yelp_business.csv is publicly saved on a Google Drive, and pandas will downl
 
 ### Category 3: Visualize data in a graph, chart, or other visual representation of data.
   - Tabular data displayed for review star ratings
-  - Histplot displaying star ratings of reviews
+  - Histogram displaying star ratings of reviews
   - Markers for restaurants were added to a map using GPS coordinates, business name and review text can be viewed by clicking on     markers.
   - Most frequently used words from negative reviews displayed in wordclouds.
 
