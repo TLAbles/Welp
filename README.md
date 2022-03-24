@@ -16,6 +16,24 @@ Before starting, the following packages will need to be installed:
 conda install -c conda-forge wordcloud
 pip install folium langdetect nltk folium numpy pandas seaborn matplotlib wordcloud langdetect
 ```
+
+Steps to create a conda environment named welp-env are listed below.
+
+Step 1: Create a conda environment. 
+
+conda create -n yelp-env jupyter notebook 
+
+Step 2: Activate the environment using the command 
+conda activate welp-env 
+
+Step 3: After activating the welp-env, check the packages that are installed using the command 
+conda list  
+
+
+Additional information about managing environments can be found here 
+
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+
 ### Environment
 This project utilizes Jupyter Notebook and should be displayed using the Jupyter Notebook add on to VS Code. 
 
