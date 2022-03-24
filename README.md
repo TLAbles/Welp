@@ -25,21 +25,21 @@ The yelp_business.csv is publicly saved on a Google Drive, and pandas will downl
 ## Features:
 
 ### Category 1: Analyze text and display information about it.
--Sentiment analysis was performed on reviews, added to df. A mean was also taken based on the compound scores. 
+  - Sentiment analysis was performed on reviews, added to df. A mean was also taken based on the compound scores. 
  
 ### Category 2: Read data from an external file, such as text, JSON, CSV, etc, and use that data in your application.
--Imported CSVs.  
+  - Imported CSVs.  
 
 ### Category 3: Visualize data in a graph, chart, or other visual representation of data.
--Tabular data displayed for review star ratings
--Histplot displaying star ratings of reviews
--Markers for restaurants were added to a map using GPS coordinates, business name and review text can be viewed by clicking on     markers.
--Most frequently used words from negative reviews displayed in wordclouds.
+  - Tabular data displayed for review star ratings
+  - Histplot displaying star ratings of reviews
+  - Markers for restaurants were added to a map using GPS coordinates, business name and review text can be viewed by clicking on     markers.
+  - Most frequently used words from negative reviews displayed in wordclouds.
 
 ### Category 4:
--Implement a log that records errors, invalid inputs, or other important events and writes them to a text file.
+  - Implement a log that records errors, invalid inputs, or other important events and writes them to a text file.
 
 ### Additional features:
--Use a Jupyter notebook to document your data analysis.
--Use pandas, matplotlib, and/or numpy to perform a data analysis project. Ingest 2 or more pieces of data, analyze that data in some manner, and display a new result to a graph, chart, or other display.
+  - Use a Jupyter notebook to document your data analysis.
+  - Use pandas, matplotlib, and/or numpy to perform a data analysis project. Ingest 2 or more pieces of data, analyze that data in some manner, and display a new result to a graph, chart, or other display.
  
