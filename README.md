@@ -40,7 +40,7 @@ Additional information about managing environments can be found here
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
 ### Environment
-This project utilizes Jupyter Notebook and should be displayed using the Jupyter Notebook add on to VS Code. It can be displayed in a Jupyter Notebook, as well, but some elements may not display as well. 
+This project utilizes Jupyter Notebook and should be displayed using the Jupyter Notebook add on to VS Code. It can be run in a Jupyter Notebook, as well, but some elements may not display quite as intended. 
 
 ### Data Sources 
 The yelp_business.csv is publicly saved on a Google Drive, and pandas will download it automatically, but the `yelp_review.csv` must be located at the [data source](https://www.kaggle.com/yelp-dataset/yelp-dataset/version/6) and downloaded and extracted to a local machine. Replace the existing filepath to the downloaded file in the ‘ ‘ in the #read review file cell with the correct path to load the data. 
